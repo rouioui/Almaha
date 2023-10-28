@@ -5488,9 +5488,9 @@ select {
     text-align: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1280px) {
   .background-clip {
-    width: 90% !important;
+    width: 600% !important;
   }
 }
 .restaurant-slider {
