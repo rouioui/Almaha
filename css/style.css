@@ -3161,7 +3161,7 @@ hr {
   background-color: #fff;
 }
 .clients .owl-carousel {
-  margin: 20px 0;
+  margin-bottom: 50px;
 }
 .clients .clients-logo {
   opacity: 1;
@@ -5500,4 +5500,15 @@ select {
   justify-content: center;
   align-items: center;
   backdrop-filter: brightness(60%);
+}
+.background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: ab;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
