@@ -783,24 +783,29 @@
         <div class="row" style="margin: 0px;">
           <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
             <div class="img left">
-              <a href="restaurant-bibliotheque.html"><img src="img/restaurants/library/library-1.jpg" alt="" /></a>
+              <div class="services-img-text">Bibliotheque</div>
+              <a href="restaurant-bibliotheque.html"><img src="img/restaurants/library/library-1.jpg" alt="" />
+              </a>
             </div>
           </div>
           <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
             <div class="img">
-              <a href="pixel-restaurants.html"><img src="img/restaurants/pixel/pixel-2.jpg" alt="" /></a>
+              <div class="services-img-text">Pixel</div>
+              <a href="pixel-restaurant.html"><img src="img/restaurants/pixel/pixel-2.jpg" alt="" /></a>
             </div>
           </div>
         </div>
         <div class="row" style="margin: 0px;">
           <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
             <div class="img left">
+              <div class="services-img-text">Rooftop</div>
               <a href="404.html"><img src="img/restaurants/Rooftop/rooftop-4.jpg" alt="" /></a>
             </div>
           </div>
           <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
             <div class="img">
-              <a href="404.html"><img src="img/spa/spa-55.JPG" alt="" /></a>
+              <div class="services-img-text">Spa</div>
+              <a href="spa.html"><img src="img/spa/spa-55.JPG" alt="" /></a>
             </div>
           </div>
         </div>
@@ -840,83 +845,44 @@
         data-overlay-dark="2">
         <div class="container">
           <div class="row">
-            <!-- Reservation -->
-            <div class="col-md-5 mb-30 mt-30">
-              <p>
-                <i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i
-                  class="star-rating"></i><i class="star-rating"></i>
-              </p>
-              <h5>
-                Each of our guest rooms feature a private bath, wi-fi, cable
-                television and include full breakfast.
-              </h5>
-              <div class="reservations mb-30">
-                <div class="icon color-1">
-                  <span class="flaticon-call"></span>
-                </div>
-                <div class="text">
-                  <p class="color-1">Reservation</p>
-                  <a class="color-1" href="tel:+212524386782">0524386782</a>
-                </div>
-              </div>
-            </div>
-            <!-- Booking From -->
-            <div class="col-md-5 offset-md-2">
+            <!-- contacts -->
+            <div class="col-md-5 offset-md-2" style="margin-left:0px;">
               <div class="booking-box">
                 <div class="head-box">
-                  <h6>Rooms & Suites</h6>
-                  <h4>Hotel Booking Form</h4>
+                  <h6>CONTACT US/h6>
+                    <h4>Contact Form</h4>
                 </div>
                 <div class="booking-inner clearfix">
-                  <form action="rooms2.html" class="form1 clearfix">
+                  <form method="post" class="contact__form" action="mail.php">
+                    <!-- form message -->
                     <div class="row">
-                      <div class="col-md-12">
-                        <div class="input1_wrapper">
-                          <label>Check in</label>
-                          <div class="input1_inner">
-                            <input type="text" class="form-control input datepicker" placeholder="Check in" />
-                          </div>
+                      <div class="col-12">
+                        <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                          Your message was sent successfully.
                         </div>
+                      </div>
+                    </div>
+                    <!-- form elements -->
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input name="name" type="text" placeholder="Your Name *" required />
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input name="email" type="email" placeholder="Your Email *" required />
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input name="phone" type="text" placeholder="Your Number *" required />
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input name="subject" type="text" placeholder="Subject *" required />
+                      </div>
+                      <div class="col-md-12 form-group">
+                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *"
+                          required></textarea>
                       </div>
                       <div class="col-md-12">
-                        <div class="input1_wrapper">
-                          <label style="cursor: pointer">Check out</label>
-                          <div class="input1_inner" style="cursor: pointer">
-                            <input type="text" class="form-control input datepicker" placeholder="Check out" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="select1_wrapper">
-                          <label>Adults</label>
-                          <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                              <option value="0">Adults</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="select1_wrapper">
-                          <label>Children</label>
-                          <div class="select1_inner">
-                            <select class="select2 select" style="width: 100%">
-                              <option value="0">Children</option>
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <button type="submit" class="btn-form1-submit mt-15">
-                          Check Availability
+                        <button type="submit" class="butn-dark2">
+                          <span>Send Message</span>
                         </button>
                       </div>
                     </div>
@@ -924,12 +890,17 @@
                 </div>
               </div>
             </div>
+            <!--Map-->
+            <div class="col-md-12 map animate-box" data-animate-effect="fadeInUp"
+              style="width: 50%; position: relative;">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-7.9874923!3d31.6152721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee4f241e5063%3A0x5ba07edd062450e!2sAlmaha%20Marrakech%20Hotel%20%2CRestaurant%20%26%20SPA!5e0!3m2!1sen!2sus!4v1646760525018!5m2!1sen!2sus"
+                width="100%" height="600" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Clients -->
-
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-top">
