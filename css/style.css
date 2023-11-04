@@ -41,7 +41,6 @@
  39. Responsive (Media Query)
  
 ------------------------------------------------------- */
-
 /* ======= Preloader style ======= */
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
@@ -58,9 +57,6 @@
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #8e6d45;
-}
-* {
-  scroll-behavior: smooth;
 }
 .preloader-bg,
 #preloader {
@@ -197,7 +193,7 @@ input[type="text"],
 input[type="file"],
 textarea {
   max-width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 56px;
   padding: 10px 0;
   height: auto;
   background-color: transparent;
