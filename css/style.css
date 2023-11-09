@@ -132,12 +132,13 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.75em;
-  color: #666;
+  color: #000000;
+  letter-spacing: 1px;
   overflow-x: hidden !important;
 }
 p {
   font-family: "Barlow", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.75em;
   color: #666;
@@ -3563,11 +3564,11 @@ button.mfp-arrow {
 }
 .form1 .col2 {
   float: left;
-  width: 14%;
+  width: 20%;
 }
 .form1 .col3 {
   float: left;
-  width: 18%;
+  width: 20%;
 }
 .form1 .c1 {
   border-right: 1px solid #f1eeeb;
@@ -3715,7 +3716,9 @@ button.mfp-arrow {
   background: #fff;
   color: #222 !important;
 }
-
+.input2_inner:after{
+  content: none;
+}
 .select1_wrapper {
   margin-bottom: 0;
 }
