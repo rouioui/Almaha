@@ -4643,6 +4643,7 @@ button.mfp-arrow {
   letter-spacing: 3px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: #aa8453;
+  letter-spacing: 5px;
 }
 .butn-light a:after {
   content: "";
