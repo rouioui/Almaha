@@ -755,6 +755,7 @@ blockquote cite:before {
   .rooms1 .owl-theme .owl-nav {
     display: none;
   }
+
 }
 
 .news .owl-theme .owl-nav [class*="owl-"] {
@@ -1103,6 +1104,7 @@ blockquote cite:before {
   transition: all 0.3s;
 }
 @media screen and (max-width: 767px) {
+
   .navbar {
     padding-left: 0px;
     padding-right: 0px;
@@ -1638,6 +1640,7 @@ hr {
   .kenburns-section div.reservation {
     display: none;
   }
+
 }
 
 /* ======= Slider Grid Background ======= */
@@ -3531,6 +3534,9 @@ button.mfp-arrow {
 @media screen and (max-width: 767px) {
   .testimonials-box {
     padding: 0px;
+  }
+  .Break{
+    width: 100% !important;
   }
 }
 
@@ -5530,4 +5536,7 @@ select {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+.col-md-6{
+  width:49.7%;
 }
