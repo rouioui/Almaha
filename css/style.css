@@ -3536,6 +3536,9 @@ button.mfp-arrow {
     padding: 0px;
   }
   .Break{
+    width: 80% !important;
+  }
+  .col-md-6{
     width: 100% !important;
   }
 }
